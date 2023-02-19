@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "ES6",
+        "module": "commonjs", 
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "esModuleInterop": true        
+    },
+    "exclude": ["./src/webpackSrc"]
+}

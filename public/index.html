@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="bundle.js" defer></script>
+    </head>
+    <div style="display:flex">
+        <canvas id="canvas" width="700" height="500"></canvas>
+        <div style="flex-direction: column">
+            <input type="radio" id="auto-play" name="gameplay" value="auto-play">
+            <label for="auto-play">Auto</label><br>
+            <input type="radio" id="manual-play" name="gameplay" value="manual-play">
+            <label for="manual-play">Manual</label><br>
+            <input type="radio" id="nn-play" name="gameplay" value="nn-play">
+            <label for="nn-play">NN</label>
+        </div>        
+    </div>
+    <br>
+    <textarea id="NET" name="NET" rows="10" cols="80"></textarea>
+</html>
